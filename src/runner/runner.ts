@@ -106,7 +106,9 @@ const checkNodeVersion = () => {
   if (
     nodeMajorVersion != "16" &&
     nodeMajorVersion != "18" &&
-    nodeMajorVersion != "20"
+    nodeMajorVersion != "20" &&
+    nodeMajorVersion != "22" &&
+    nodeMajorVersion != "24"
   ) {
     console.warn(
       chalk.yellow(
